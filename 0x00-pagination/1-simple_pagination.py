@@ -47,7 +47,8 @@ class Server:
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
         """
-        fn that takes 2 integer arguments and returns requested page from the dataset
+        fn that takes 2 integer arguments and returns requested page from
+          the dataset
         Args:
             page (int): required page number. must be a positive integer
             page_size (int): number of records per page. must be a +ve integer
